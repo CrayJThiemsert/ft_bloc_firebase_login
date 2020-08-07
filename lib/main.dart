@@ -34,19 +34,23 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
-        builder: (context, state) {
-          if(state is AuthenticationInitial) {
-            return SplashScreen();
-          }
-          if(state is AuthenticationFailure) {
-            return LoginScreen(userRepository: _userRepository);
-          }
-          if(state is AuthenticationSuccess) {
-            return HomeScreen(name: state.displayName);
-          }
-          return Container();
-        },
+      home: SafeArea(
+        top: true,
+        bottom: true,
+        child: BlocBuilder<AuthenticationBloc, AuthenticationState>(
+          builder: (context, state) {
+            if(state is AuthenticationInitial) {
+              return SplashScreen();
+            }
+            if(state is AuthenticationFailure) {
+              return LoginScreen(userRepository: _userRepository);
+            }
+            if(state is AuthenticationSuccess) {
+              return HomeScreen(name: state.displayName);
+            }
+            return Container();
+          },
+        ),
       ),
     );
   }

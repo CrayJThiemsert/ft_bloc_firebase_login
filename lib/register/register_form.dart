@@ -96,7 +96,7 @@ class _RegisterFormState extends State<RegisterForm> {
                     autovalidate: true,
                     autocorrect: false,
                     validator: (_) {
-                      return !state.isEmailValid ? 'Invalid Password' : null;
+                      return !state.isPasswordValid ? 'Invalid Password' : null;
                     },
                   ),
 
