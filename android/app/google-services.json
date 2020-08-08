@@ -15,6 +15,30 @@
       },
       "oauth_client": [
         {
+          "client_id": "258838862792-qpnmjs1k73ilhdlqkhp1repluvj8s6hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cray.ft_bloc_firebase_login",
+            "certificate_hash": "7dcc77dc32116e69b46a078ca55d6de6b2cba383"
+          }
+        },
+        {
+          "client_id": "258838862792-tc13sngn4ud5sta8g4ppiap2nelbeu45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cray.ft_bloc_firebase_login",
+            "certificate_hash": "590afdbf7cb1ec7c2ed8b379f22af9ced3a16d21"
+          }
+        },
+        {
+          "client_id": "258838862792-1dg0ujg9l0teidkiqac24plf8jqv2icn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cray.ft_bloc_firebase_login",
+            "certificate_hash": "3d177da1d5c3e7f8d45b2dccd42867094b3ba747"
+          }
+        },
+        {
           "client_id": "258838862792-55ehp89vpq8r400b23u469smmvigb967.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -28,7 +52,59 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "258838862792-55ehp89vpq8r400b23u469smmvigb967.apps.googleusercontent.com",
+              "client_id": "258838862792-m3mcnlg0vdsb40ph25lsfm5km2de6vis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "258838862792-41225jra3k3oe44ie9oso71m2ur6oeu1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cray.hobbybase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258838862792:android:f2aed16af7318d28983efd",
+        "android_client_info": {
+          "package_name": "com.cray.ft_google_sign_in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258838862792-74eui9m3jaokhn6bjunkds0sbg1cecgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cray.ft_google_sign_in",
+            "certificate_hash": "7dcc77dc32116e69b46a078ca55d6de6b2cba383"
+          }
+        },
+        {
+          "client_id": "258838862792-hgnm9hm9j1ka698k8aomi4459f2c82r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cray.ft_google_sign_in",
+            "certificate_hash": "590afdbf7cb1ec7c2ed8b379f22af9ced3a16d21"
+          }
+        },
+        {
+          "client_id": "258838862792-55ehp89vpq8r400b23u469smmvigb967.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNAfz5imrhcYeM6kVVQxPNTMhz26iJSRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258838862792-m3mcnlg0vdsb40ph25lsfm5km2de6vis.apps.googleusercontent.com",
               "client_type": 3
             },
             {
@@ -72,7 +148,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "258838862792-55ehp89vpq8r400b23u469smmvigb967.apps.googleusercontent.com",
+              "client_id": "258838862792-m3mcnlg0vdsb40ph25lsfm5km2de6vis.apps.googleusercontent.com",
               "client_type": 3
             },
             {
@@ -108,7 +184,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "258838862792-55ehp89vpq8r400b23u469smmvigb967.apps.googleusercontent.com",
+              "client_id": "258838862792-m3mcnlg0vdsb40ph25lsfm5km2de6vis.apps.googleusercontent.com",
               "client_type": 3
             },
             {
